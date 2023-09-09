@@ -1,0 +1,386 @@
+/* main body settings */
+@media (max-width: 480px ) {
+body{
+   overflow-x: hidden;
+}
+
+}
+@media (max-width: 400px ) {
+    body{
+       padding-left: 2px;
+       padding-right: 2px;
+
+    }
+}
+ @media (max-width: 330px ) {
+        body{
+           padding-left: 10px;
+           padding-right: 10px;
+    
+        }
+ }
+/* Navigation bar resposive code start from here */
+@media (max-width: 1200px ) {
+    .check-btn{
+        display: block;
+    }
+    .ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background-color: #090c0f;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+    nav .ul .li{
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+    nav .ul .li .a{
+        font-size: 20px;
+    }
+    .a:hover{
+        background: none;
+        color: #00abf0;
+    }
+    #check:checked ~ .ul{
+        left: 0;
+    }
+   
+}
+
+@media (max-width: 800px ) {
+    label.logo{
+        padding: 0 30px;   
+    }
+  .tlogo{
+      font-size: 20px;
+  }
+  .logoimg {
+    height: 40px;
+    width: 40px;
+}
+}
+@media (max-width: 400px ) {
+    label.logo{
+        padding: 0 10px;   
+    }
+    .check-btn {
+        font-size: 20px;
+        margin-right: 8px;
+        cursor: pointer;
+        display: none;
+        display: block;
+    }
+    .bar{
+        max-width: 100%;
+        height: 40px;
+        width: 40px;
+    }
+}
+@media (max-width: 340px ) {
+    .check-btn {
+        font-size: 20px;
+        margin-right: 0px;
+        cursor: pointer;
+        display: none;
+        display: block;
+    }
+}
+@media (max-width: 378px ) {
+    .sticky{
+            display: none;
+    }
+}
+/* Navigation bar responsiveness end at here */
+
+/* home section is start from here */
+@media (max-width: 358px ) {
+.btn2{
+    margin-left: 0px;
+}
+.btn{
+    padding: 0px;
+}
+}
+@media (max-width: 1200px ) {
+    .home{
+        margin-top: 70px;
+    }
+}
+@media (max-width: 1050px ) {
+.text1{
+    font-size: 30px;
+}
+.text2{
+    font-size: 15;
+}
+.home-img{
+    height: 400px;
+    width: 300px;
+}
+
+}
+@media (max-width: 7200px ) {
+    .text1{
+        font-size: 24px;
+    }
+    .text2{
+        font-size: 12;
+    }
+    .home-img{
+        height: 350px;
+        width: 380px;
+    }
+}
+@media (max-width: 700px ) {
+.hleft{
+    margin-left: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.hright{
+    margin-top: 50px;
+}
+.home{
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+@media (max-width: 440px ) {
+    .text3{
+        font-size: 10px;
+        padding-right: 20px;
+    }
+}
+@media (max-width: 384px ) {
+    .hleft{
+        margin-left: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }  
+}
+@media (max-width: 352px ) {
+    .hleft{
+        margin-left: 22px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }  
+}
+@media (max-width: 324px ) {
+    .hleft{
+        flex: 60%;
+        margin-left: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+    } 
+}
+}
+/* home section is end at here */
+/* about section is start from here */
+@media (max-width: 1250px ) {
+    .About-Me {
+        margin-top: 80px;
+         color: var(--text-color3);
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+         width: 100%;
+         padding-left: 0px;
+         padding-right: 0px;
+     }
+     .about {
+        margin-left: 6vw !important;
+        margin-right: 6vw !important;
+   
+    }
+ }
+ 
+ @media (max-width: 1100px ) {
+    
+    .img1 {
+        width: 360px;
+        height: 350px;
+    }
+ }
+@media (max-width: 900px ) {
+    .about {  
+        margin-top: 40px;
+        flex-direction: column; 
+    }
+    .left {
+        width: 450px;
+        height: 250px;
+    }
+}
+@media (max-width: 800px ) {
+.right{
+    padding-right: 0px;
+}
+
+}
+@media (max-width: 570px ) {
+    .about {  
+        margin-top: 40px;
+        flex-direction: column; 
+    }
+    .img1{
+        width: 400px;
+    }
+    .left {
+        width: 450px;
+        height: 250px;
+    }
+    .right{
+        padding-right: 0px;
+    }
+    .about-text{
+        padding: 20px;
+    }
+}
+@media (max-width: 480px ) {
+    .img1{
+        width: 300px;
+    }
+}
+@media (max-width: 464px ) {
+    .about-text {
+        padding: 20px;
+        padding-right: 54px; 
+     padding-left: 81px;
+    }
+}
+
+  /* about me setion is end from here */
+
+
+  /* Protfolio section is start from here */
+  @media (max-width: 698px ) {
+      .pro{
+          margin-top: 50px;
+      }
+.imgp{
+
+        height: 250px;
+        width: 450px;
+        padding: 10px; 
+   }
+  }
+  @media (max-width: 480px ) {
+    .imgp{
+
+        height: 250px;
+        width: 350px;
+        padding: 10px; 
+   }
+  }
+  @media (min-width: 1400px ) {
+          .pro{
+              margin-right: 10vw;
+              margin-left: 10vw;
+          }
+  }
+  @media (min-width: 1450px ) {
+.righte{
+    flex: 25%;
+}
+
+
+  }
+  @media (min-width: 2175px ) {
+    .pro{
+        margin-right: 20vw;
+        margin-left: 20vw;
+    }
+  }
+  @media (min-width: 2904px ) {
+    .pro{
+        margin-right: 30vw;
+        margin-left: 30vw;
+    }
+  }
+  /* information section is start from here */
+ @media (max-width: 1108px ) {
+  .edut {
+    margin-left: 0vw;
+    margin-right: 0vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lefte {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 50%;
+}
+ }
+ @media (max-width: 1108px ) {
+
+
+.righte{
+    font-size: 22px;
+    padding-right: 0px;
+}
+ }
+ @media (max-width: 990px ) {
+    .edut{
+      flex-wrap: wrap;
+    
+    }
+    .righte{
+        font-size: 15px;
+        justify-content: center;
+        align-items: center;
+    }
+ }
+
+
+
+
+
+
+
+
+
+
+
+ /* contact section is start from here */
+ @media (max-width: 900px ) {
+ .contact-map {
+    border: 3px solid var(--text-color1);
+    border-left: 0px;
+    border-top: 0px;
+    border-right: 0px;
+    padding-bottom: 40px;
+}
+ }
+ @media (max-width: 480px ) {
+    .icons {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: left;
+        align-items: center;
+    }
+ }
+ @media (max-width: 480px ) {
+     .icon{
+         margin: 10px;
+        padding:  15px;
+            
+     }
+     .up{
+         font-size: 20px;
+     }
+     .contact-form{
+         padding: 0px;
+     }
+ }
+ @media (max-width: 400px ) {
+.contact-in{
+    width: 100%;
+}
+ }
